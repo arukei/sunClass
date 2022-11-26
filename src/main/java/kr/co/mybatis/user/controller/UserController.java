@@ -157,7 +157,7 @@ public class UserController {
 		
 		return mv;
 	}
-	// 회원등급다운
+	// 회원등급다운 
 	@RequestMapping(value="/downGradeAuth")
 	public ModelAndView downGradeAuth(@ModelAttribute("user") User userVo) throws Exception {
 		
