@@ -3,6 +3,7 @@
 	<name>sundayClass</name>
 	<comment></comment>
 	<projects>
+		<defaultGoal>install</defaultGoal>
 	</projects>
 	<buildSpec>
 		<buildCommand>
