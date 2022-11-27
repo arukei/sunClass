@@ -181,7 +181,7 @@ public class UserController {
 
 		ModelAndView mv = new ModelAndView();
 		
-		// user정보가 없으면 자동으로 걸리는지..?
+		// user정보가 없으면 자동으로 걸리는지..? null
 		if(userVo.getAuth() != 2 ) {
 			mv.setViewName("redirect:/");
 			return mv;
